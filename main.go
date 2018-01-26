@@ -4,9 +4,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/ananichev/simle-blockchain-service/blockchain"
-	"github.com/ananichev/simle-blockchain-service/handler"
-	"github.com/ananichev/simle-blockchain-service/store"
+	"github.com/ananichev/simple-blockchain-service/blockchain"
+	"github.com/ananichev/simple-blockchain-service/handler"
+	"github.com/ananichev/simple-blockchain-service/store"
 
 	"github.com/gorilla/mux"
 )

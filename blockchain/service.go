@@ -6,8 +6,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/ananichev/simle-blockchain-service/store"
-	"github.com/ananichev/simle-blockchain-service/types"
+	"github.com/ananichev/simple-blockchain-service/store"
+	"github.com/ananichev/simple-blockchain-service/types"
 )
 
 // Service represents simple blockchain service

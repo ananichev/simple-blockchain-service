@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/ananichev/simle-blockchain-service/blockchain"
-	"github.com/ananichev/simle-blockchain-service/types"
+	"github.com/ananichev/simple-blockchain-service/blockchain"
+	"github.com/ananichev/simple-blockchain-service/types"
 
 	"github.com/gorilla/mux"
 )

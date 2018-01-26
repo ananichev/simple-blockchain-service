@@ -3,7 +3,7 @@ package store
 import (
 	"encoding/json"
 
-	"github.com/ananichev/simle-blockchain-service/types"
+	"github.com/ananichev/simple-blockchain-service/types"
 
 	"github.com/boltdb/bolt"
 )

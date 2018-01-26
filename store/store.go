@@ -3,7 +3,7 @@ package store
 import (
 	"io"
 
-	"github.com/ananichev/simle-blockchain-service/types"
+	"github.com/ananichev/simple-blockchain-service/types"
 )
 
 // Store represents storage interface

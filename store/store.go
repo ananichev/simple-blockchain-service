@@ -9,7 +9,11 @@ import (
 // Store represents storage interface
 type Store interface {
 	AddBlock(types.Block) error
-	GetLast(int) ([]types.Block, error)
+	DeleteBlock(types.Block) error
+	GetLastBlocks(int) ([]types.Block, error)
+	StoreLink(link types.Link) error
+	GetLinks() ([]types.Link, error)
+	GetBlocks() ([]types.Block, error)
 
 	io.Closer
 }
